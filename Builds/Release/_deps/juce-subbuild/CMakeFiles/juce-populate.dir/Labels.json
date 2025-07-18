@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/juce-populate"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/1ecdfb44664ce27726e52d3dca8f7e36/juce-populate.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/b072a41bc1ad9cce75d769f31a5b6b79/juce-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/81a2bd25113e757247b7804b83b3e02c/juce-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"juce-populate"
+		],
+		"name" : "juce-populate"
+	}
+}

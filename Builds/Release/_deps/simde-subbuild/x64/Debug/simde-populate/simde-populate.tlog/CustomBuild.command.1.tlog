@@ -1,0 +1,150 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/tmp/simde-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/tmp/simde-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\simde-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/tmp/simde-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\simde-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\simde-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\simde-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\10EFC6C39722DF04E970AFC64E28743D\SIMDE-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\simde-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\9BC0A4F3C28392D1B64ECDC2582AEC9D\SIMDE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/Debug/simde-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/simde-populate-prefix/src/simde-populate-stamp/Debug/simde-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKEFILES\741D2F5696FE69ECD76C37FA566E5B2D\SIMDE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SIMDE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

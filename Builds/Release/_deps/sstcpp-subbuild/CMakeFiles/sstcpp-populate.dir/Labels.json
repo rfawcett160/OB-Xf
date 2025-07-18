@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/sstcpp-populate"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/bc2b0f811451c2454ae6e125e066087e/sstcpp-populate.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/4cfbfcc2eb58477a7f94d6b817ce392d/sstcpp-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-subbuild/CMakeFiles/68d8ee2d9bb05ec3396d0e425ea75fba/sstcpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sstcpp-populate"
+		],
+		"name" : "sstcpp-populate"
+	}
+}

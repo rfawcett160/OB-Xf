@@ -1,0 +1,22 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-build/modules/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-build/extras/Build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-build/extras/Build/juceaide/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/fmt-build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstcpp-build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstbb-build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-build/libs/filesystem/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-build/libs/tinyxml/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-build/libs/strnatcmp/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-build/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-build/clapjuceext_clap/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-build/clapjuceext_claphelpers/cmake_install.cmake",
+		"C:/Users/robfa/Documents/OB-Xf/Builds/Release/assets/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

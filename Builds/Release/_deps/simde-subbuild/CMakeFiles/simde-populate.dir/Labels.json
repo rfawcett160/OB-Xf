@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/simde-populate"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/741d2f5696fe69ecd76c37fa566e5b2d/simde-populate.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/9bc0a4f3c28392d1b64ecdc2582aec9d/simde-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/simde-subbuild/CMakeFiles/10efc6c39722df04e970afc64e28743d/simde-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"simde-populate"
+		],
+		"name" : "simde-populate"
+	}
+}

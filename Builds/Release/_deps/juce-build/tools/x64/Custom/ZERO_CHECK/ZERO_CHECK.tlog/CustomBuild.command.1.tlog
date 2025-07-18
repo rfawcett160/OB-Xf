@@ -1,0 +1,10 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-BUILD\TOOLS\CMAKEFILES\6C910B4894CE11640CC2E7A8BB219D2C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-src -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-build/tools --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-build/tools/JUCE.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

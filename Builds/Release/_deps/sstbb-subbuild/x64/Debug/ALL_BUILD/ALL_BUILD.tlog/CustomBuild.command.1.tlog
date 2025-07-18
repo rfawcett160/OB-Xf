@@ -1,0 +1,10 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTBB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstbb-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstbb-subbuild --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstbb-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

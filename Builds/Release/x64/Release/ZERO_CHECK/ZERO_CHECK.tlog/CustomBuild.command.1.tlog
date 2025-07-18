@@ -1,0 +1,10 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\CMAKEFILES\7FDE2B762340DF4758B82554CC84B654\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf -BC:/Users/robfa/Documents/OB-Xf/Builds/Release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/OB-Xf.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

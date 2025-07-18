@@ -1,0 +1,20 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\CMAKEFILES\AC90A354C6655DFD0BF1EDA76A0D9253\OB-XF_RESOURCES.RC.RULE
+setlocal
+_deps\juce-build\tools\extras\Build\juceaide\juceaide_artefacts\Custom\juceaide.exe rcfile C:/Users/robfa/Documents/OB-Xf/Builds/Release/OB-Xf_artefacts/JuceLibraryCode/Info.txt C:/Users/robfa/Documents/OB-Xf/Builds/Release/OB-Xf_artefacts/JuceLibraryCode/OB-Xf_resources.rc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf -BC:/Users/robfa/Documents/OB-Xf/Builds/Release --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

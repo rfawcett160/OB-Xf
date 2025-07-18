@@ -1,0 +1,150 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/tmp/mts_esp-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/tmp/mts_esp-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\mts_esp-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/tmp/mts_esp-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\mts_esp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\mts_esp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\mts_esp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\0BCAD7B8E5F5EA4F5C44BBF3517A9E70\MTS_ESP-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\mts_esp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\5A9E68599001A5E37F29ACA56365B5E0\MTS_ESP-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/CMakeFiles/Debug/mts_esp-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/mts_esp-populate-prefix/src/mts_esp-populate-stamp/Debug/mts_esp-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKEFILES\554E1B84861936559764C1057106BF59\MTS_ESP-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\MTS_ESP-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/mts_esp-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

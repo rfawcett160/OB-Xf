@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/sstplugininfra-populate"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/7c92f6011bb22a51d5af541e4852c7b2/sstplugininfra-populate.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/505706fe67967562016d660d0e60e7f0/sstplugininfra-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/cbc3ccb8fdeb7df7cad800802f05f83e/sstplugininfra-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sstplugininfra-populate"
+		],
+		"name" : "sstplugininfra-populate"
+	}
+}

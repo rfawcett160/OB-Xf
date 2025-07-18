@@ -1,0 +1,150 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/tmp/clap_juce_extensions-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/tmp/clap_juce_extensions-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\clap_juce_extensions-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/tmp/clap_juce_extensions-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\clap_juce_extensions-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\clap_juce_extensions-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\clap_juce_extensions-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\6BF40493B27437D113BEFF2E45D0D96C\CLAP_JUCE_EXTENSIONS-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\clap_juce_extensions-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\0294DBD78889FBA53EB2091488C77FAB\CLAP_JUCE_EXTENSIONS-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/CMakeFiles/Debug/clap_juce_extensions-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/clap_juce_extensions-populate-prefix/src/clap_juce_extensions-populate-stamp/Debug/clap_juce_extensions-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKEFILES\E2B8766BC1AE9A547C93A4B22AEC6BFE\CLAP_JUCE_EXTENSIONS-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\CLAP_JUCE_EXTENSIONS-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/clap_juce_extensions-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

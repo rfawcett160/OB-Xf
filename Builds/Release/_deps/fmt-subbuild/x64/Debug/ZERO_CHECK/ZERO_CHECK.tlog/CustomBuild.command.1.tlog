@@ -1,0 +1,10 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\FMT-SUBBUILD\CMAKEFILES\F246C9D2D7E3CC6D100B36493F5E50C7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/fmt-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/fmt-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/fmt-subbuild/fmt-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,24 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\CMAKEFILES\A9CF88F4933CF1EECA5F82A05DDCF537\BINARYDATA1.CPP.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\assets
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\juce-build\tools\extras\Build\juceaide\juceaide_artefacts\Custom\juceaide.exe binarydata BinaryData BinaryData.h C:/Users/robfa/Documents/OB-Xf/Builds/Release/assets/juce_binarydata_BinaryData/JuceLibraryCode C:/Users/robfa/Documents/OB-Xf/Builds/Release/assets/juce_binarydata_BinaryData/JuceLibraryCode/input_file_list
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\ASSETS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf -BC:/Users/robfa/Documents/OB-Xf/Builds/Release --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/assets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,150 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\juce-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\juce-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\juce-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\juce-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\81A2BD25113E757247B7804B83B3E02C\JUCE-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\juce-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\B072A41BC1AD9CCE75D769F31A5B6B79\JUCE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/Debug/juce-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/Debug/juce-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKEFILES\1ECDFB44664CE27726E52D3DCA8F7E36\JUCE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\JUCE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/juce-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

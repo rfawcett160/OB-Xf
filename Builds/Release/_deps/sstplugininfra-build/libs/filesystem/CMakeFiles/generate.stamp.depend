@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/robfa/Documents/OB-Xf/Builds/Release/CMakeFiles/cmake.verify_globs
+C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-src/libs/filesystem/CMakeLists.txt
+C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-src/libs/filesystem/src/import.h.in

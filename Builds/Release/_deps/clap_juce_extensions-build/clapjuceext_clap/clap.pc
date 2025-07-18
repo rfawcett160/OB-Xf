@@ -1,0 +1,8 @@
+prefix=C:/Program Files (x86)/OB-Xf
+includedir=${prefix}/include
+
+Name: clap
+Description: The interface headers for the CLAP audio plugin API
+Version: 0.8.200
+
+Cflags: -I${includedir}

@@ -1,0 +1,150 @@
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/tmp/sstplugininfra-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/tmp/sstplugininfra-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\sstplugininfra-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/tmp/sstplugininfra-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\sstplugininfra-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\sstplugininfra-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\sstplugininfra-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\CBC3CCB8FDEB7DF7CAD800802F05F83E\SSTPLUGININFRA-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\robfa\Documents\OB-Xf\Builds\Release\_deps\sstplugininfra-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\505706FE67967562016D660D0E60E7F0\SSTPLUGININFRA-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/Debug/sstplugininfra-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/sstplugininfra-populate-prefix/src/sstplugininfra-populate-stamp/Debug/sstplugininfra-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKEFILES\7C92F6011BB22A51D5AF541E4852C7B2\SSTPLUGININFRA-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROBFA\DOCUMENTS\OB-XF\BUILDS\RELEASE\_DEPS\SSTPLUGININFRA-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild -BC:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild --check-stamp-file C:/Users/robfa/Documents/OB-Xf/Builds/Release/_deps/sstplugininfra-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
